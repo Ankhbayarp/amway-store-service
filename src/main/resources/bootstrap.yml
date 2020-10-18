@@ -1,0 +1,6 @@
+spring: 
+   application:
+     name: amway-store-service
+   
+server:
+  port: 9099
