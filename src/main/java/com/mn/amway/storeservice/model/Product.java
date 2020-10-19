@@ -5,7 +5,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 import lombok.Data;
 
 @Entity
@@ -27,8 +26,6 @@ public class Product {
     private Double price1;    
     private Double price2;
     private Double score;
-    // private Integer income;   // orlogo too shirheg
-    // private Integer expenditure;  // zarlaga too shirhed
     private Integer balance;  // vldegdel
     @Column(name="picture")
     private String picture;

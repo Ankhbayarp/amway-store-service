@@ -19,8 +19,8 @@ public class Journal {
     @GeneratedValue
     private Integer id;
     private Date date;
-    @Column(name = "product_code")
-    private String productCode;
+    @Column(name = "product_id")
+    private Integer productId;
     private Integer income; // orlogo too shirheg
     private Integer expenditure; // zarlaga too shirhed
     @Column(name = "customer_id")
