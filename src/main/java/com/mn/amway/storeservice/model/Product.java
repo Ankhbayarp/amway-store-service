@@ -30,6 +30,8 @@ public class Product {
     // private Integer income;   // orlogo too shirheg
     // private Integer expenditure;  // zarlaga too shirhed
     private Integer balance;  // vldegdel
+    @Column(name="picture")
+    private String picture;
 
     public Product() {
 
